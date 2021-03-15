@@ -81,7 +81,6 @@ describe('eliminarPropiedad(object, property)', function() {
     expect(eliminarPropiedad(object, 'z')).toEqual(updatedObject);
   });
 });
-
 describe('nuevoUsuario(nombre, email, password)', function() {
   it('should return a new user object with a nombre, email, and password property that match the arguments', function() {
     const user = {
