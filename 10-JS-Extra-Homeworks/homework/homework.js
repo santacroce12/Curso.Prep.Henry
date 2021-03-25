@@ -10,8 +10,15 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  var objeto={
+    Juan: 18,
+    Pedro: 19,
+    Gabriel: 30,
+    Facu: 23,
+  }
+  const nuevobjeto = new nuevobjeto(objeto);
+  return objeto
 }
-
 
 function numberOfCharacters(string) {
   //La función recibe un string. Recorre el srting y devuelve el caracter con el número de veces que aparece 
